@@ -1,10 +1,9 @@
 import Image from "next/image";
-import styles from "./about.module.css";
+import styles from "./education.module.css";
 import link from "next/link";
 
 
-
-function AboutPage() {
+function EducationPage() {
       return (
         <div>
             <div>
@@ -14,9 +13,10 @@ function AboutPage() {
                     </li>
                 </ul>
             </div>
-            <h1 className={styles.h1}>About Page</h1>
-            <p className={styles.p}>Hey! This is Maryam Arif. Student of Computer Science, And Currently enrolled in GIAIC.</p>
+            <h1 className={styles.h1}>Education Page</h1>
+            <p className={styles.p}>Aced O-Levels with A* grade. Currently Enrolled in A-Levels.</p>
         </div>
-      )}
+      )
+    }
     
-    export default AboutPage;
+    export default EducationPage;
