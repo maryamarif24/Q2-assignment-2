@@ -1,9 +1,9 @@
 import Image from "next/image";
-import styles from "./education.module.css";
+import styles from "./services.module.css";
 import link from "next/link";
 
 
-function EducationPage() {
+function ServicePage() {
       return (
         <div>
             <div>
@@ -13,10 +13,9 @@ function EducationPage() {
                     </li>
                 </ul>
             </div>
-            <h1 className={styles.h1}>Education Page</h1>
-            <p className={styles.p}>Aced O-Levels with A* grade. Currently Enrolled in A-Levels.</p>
+            <h1 className={styles.h1}>Service Page</h1>
+            <p className={styles.p}>A Frontend Web Developer with wholesome skills. </p>
         </div>
-      )
-    }
+      )}
     
-    export default EducationPage;
+export default ServicePage;
